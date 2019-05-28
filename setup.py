@@ -1,3 +1,5 @@
+from setuptools import setup, find_packages
+
 from distutils import setup
 setup(
     name == 'Zebot2',
@@ -6,3 +8,10 @@ setup(
     author == 'Muhsin Kumbay',
     author_email == 'muhsinkumbay99@gmail.com'
 )
+
+
+with open('README.md') as f:
+    readme = f.read()
+
+with open('LICENSE') as f:
+    license = f.read()
