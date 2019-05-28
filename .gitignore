@@ -88,3 +88,8 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# config files 
+config.py
+__pycache__
+.ipynb_checkpoints
